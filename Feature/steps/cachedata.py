@@ -43,7 +43,7 @@ def click_clear(self):
     self.driver.find_element(By.XPATH, '//span[normalize-space()="Clear cache"]').click()
 
 
-@Then('check error message')
+@Then('check error meassage')
 def error(self):
     element1 = self.driver.find_element(By.XPATH, '//div[@class="alert alert-danger alert-dismissable"]')
     print(element1.text)

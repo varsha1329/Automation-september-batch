@@ -9,4 +9,4 @@ Feature: check Clear cache is Visible
   Scenario: Check after clear cache Error msg show
     Given valid Email & Password
     When click on clear cache
-    Then check error message
+    Then check error meassage
